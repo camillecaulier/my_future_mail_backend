@@ -1,3 +1,6 @@
+## How to create the migration file 
+sqlx migrate add create_scheduled_emails_table
+
 ## How to run the migrations file 
 
 ``sqlx migrate run``
