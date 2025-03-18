@@ -5,5 +5,5 @@ edition = "2024"
 
 [dependencies]
 dotenv = "0.15.0"
-sqlx = "0.8.3"
-tokio = "1.44.1"
+sqlx = { version = "0.8", features = [ "postgres", "runtime-tokio-native-tls", "macros" ] }
+tokio = { version = "1.44.1", features = ["full"] }
